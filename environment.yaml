@@ -1,0 +1,54 @@
+name: WMDD
+channels:
+  - defaults
+dependencies:
+  - expat=2.4.9
+  - ld_impl_linux-64=2.38
+  - libedit=3.1.20221030
+  - libffi=3.3
+  - libgomp=11.2.0
+  - ncurses=6.4
+  - python=3.9.12
+  - readline=8.2
+  - tk=8.6.12
+  - bzip2=1.0.8
+  - ca-certificates=2022.9.24
+  - git=2.30.2
+  - icu=58.2
+  - libev=4.33
+  - libiconv=1.17
+  - libnsl=2.0.0
+  - pcre=8.45
+  - perl=5.32.1
+  - pip=22.3.1
+  - c-ares=1.19.0
+  - curl=8.1.1
+  - gettext=0.21.0
+  - krb5=1.20.1
+  - libcurl=8.1.1
+  - libssh2=1.10.0
+  - libxml2=2.10.3
+  - openssl=1.1.1u
+  - pcre2=10.42
+  - setuptools=68.0.0
+  - sqlite=3.41.2
+  - tzdata=2023c
+  - wheel=0.38.4
+  - xz=5.4.2
+  - pip:
+        - mat4py==0.6.0
+        - matplotlib==3.8.0
+        - numpy==1.25.1
+        - scikit_learn==1.4.0
+        - seaborn==0.13.2
+        - torch==1.13.0
+        - wandb==0.12.18
+        - nvidia-cublas-cu11==11.10.3.66
+        - nvidia-cuda-nvrtc-cu11==11.7.99
+        - nvidia-cuda-runtime-cu11==11.7.99
+        - nvidia-cudnn-cu11==8.5.0.96
+        - torchaudio==0.13.0
+        - torchvision==0.14.0
+        - tornado==6.4
+        - tqdm==4.65.0
+
