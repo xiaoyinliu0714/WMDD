@@ -1,8 +1,8 @@
-# A Theoretical-ground Multi-source Unsupervised Domain Adaptation Method for Human Motion Intention Recognition
+# A Weight-aware-based Multi-source Unsupervised Domain Adaptation Method for Human Motion Intention Recognition
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]
 
-Code for WMDD: A Theoretical-ground Multi-source Unsupervised Domain Adaptation Method for Human Motion Intention Recognition. This paper extends the margin disparity discrepancy (MDD) theory in single-source unsupervised domain adaptation (UDA) to the multi-source UDA, and proposes a novel weighted multi-source UDA method, named WMMD, for HMI recognition. The implementation is based on [MDD](https://github.com/thuml/MDD) and [EDHKD](https://github.com/KuangenZhang/EDH).
+Code for WMDD: [A Weight-aware-based Multi-source Unsupervised Domain Adaptation Method for Human Motion Intention Recognition](https://arxiv.org/pdf/2404.15366.pdf). This paper extends the margin disparity discrepancy (MDD) theory in single-source unsupervised domain adaptation (UDA) to the multi-source UDA, and proposes a novel weighted multi-source UDA method, named WMDD, for HMI recognition. The implementation is based on [MDD](https://github.com/thuml/MDD) and [EDHKD](https://github.com/KuangenZhang/EDH).
 
 <div style="text-align: center;">
 <img src="result/picture.jpg">
@@ -32,3 +32,13 @@ Just run `run.py` with specifying the task name.
 python run.py --eval_only True
 ```
 
+## Citation
+If you find MICRO helpful for your work, please cite:
+```
+@article{liu2023wmdd,
+  title={MICRO: Model-Based Offline Reinforcement Learning with a Conservative Bellman Operator},
+  author={Liu, Xiao-Yin and Li, Guotao and Zhou, Xiao-Hu and Liang, Xu and Hou, Zeng-Guang},
+  journal={arXiv preprint arXiv:2404.15366},
+  year={2024}
+}
+```
