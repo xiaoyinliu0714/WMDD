@@ -33,10 +33,10 @@ python run.py --eval_only True
 ```
 
 ## Citation
-If you find MICRO helpful for your work, please cite:
+If you find WMDD helpful for your work, please cite:
 ```
-@article{liu2023wmdd,
-  title={MICRO: Model-Based Offline Reinforcement Learning with a Conservative Bellman Operator},
+@article{liu2024weight,
+  title={A Weight-aware-based Multi-source Unsupervised Domain Adaptation Method for Human Motion Intention Recognition},
   author={Liu, Xiao-Yin and Li, Guotao and Zhou, Xiao-Hu and Liang, Xu and Hou, Zeng-Guang},
   journal={arXiv preprint arXiv:2404.15366},
   year={2024}
